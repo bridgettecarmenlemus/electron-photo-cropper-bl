@@ -9,21 +9,13 @@ export default function  Hello () {
       <div className="Hello">
         <Link to="/Photo">
           <button type="button">
-            <span
-        </a>
-        <a
-          href="https://github.com/sponsors/electron-react-boilerplate"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button type="button">
-            <span role="img" aria-label="books">
-              🙏
+            <span role="img" aria-label="camera">
+              📸
             </span>
-            Donate
-          </button>
-        </a>
-      </div>
+            Crop Photo
+            </button>
+            </Link>
+    </div>
     </div>
   );
 };
